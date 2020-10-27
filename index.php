@@ -32,6 +32,14 @@ if(isset($_POST['submit'])){
 	<link rel="stylesheet" type="text/css" href="css/util.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 <!--===============================================================================================-->
+
+<style>
+a{
+	text-decoration: none;
+	padding-left: 40px;;
+}
+
+</style>
 </head>
 <body>
 	
@@ -62,6 +70,7 @@ if(isset($_POST['submit'])){
 
 					<div class="container-login100-form-btn">
 						<input name="submit" type="submit" class="login100-form-btn" value="Submit">
+						<a href="printData.php" class="login100-form-btn" style="background-color:blue; margin-left:40px;">Check Form</a>
 					</div>
 				</form>
 			</div>
