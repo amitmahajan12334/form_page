@@ -48,8 +48,8 @@
                         <td><span class="firstName-style"><?php echo $res['first_name']?></span></td>
                         <td><?php echo $res['last_name']?></td>
                         <td><?php echo $res['email_id']?></td>
-                        <td><i class="fa fa-edit" aria-hidden="true"></i></td>
-                        <td><i class="fa fa-trash" aria-hidden="true"></i></td>
+                        <td><a href="updates.php?id=<?php echo $res['id']; ?>" data-toggle="tooltip" data-placement="bottom" title="UPDATE"> <i class="fa fa-edit" aria-hidden="true"></i></a></td>
+                        <td><a href="delete.php?idth=<?php echo $res['id']; ?>" data-toggle="tooltip" data-placement="bottom" title="DELETE"> <i class="fa fa-trash" aria-hidden="true"></i></a></td>
                         </tr>
 
                 <?php
@@ -67,6 +67,13 @@
 
 
 </div>
+
+
+<script>
+$(document).ready(function(){
+  $('[data-toggle="tooltip"]').tooltip();
+});
+</script>
     
 </body>
 </html>
