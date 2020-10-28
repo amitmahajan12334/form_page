@@ -12,10 +12,10 @@ if(isset($_POST['submit'])){
 	$sql="INSERT INTO user(first_name,last_name,email_id)VALUES('$firstN','$lastN','$email')";
 
 	if(mysqli_query($con,$sql)){
-		$msg="donation money added to the database successfully!";
+		$msg="user value inserted successfully!";
 	}
 	else{
-		$msg="failed to added donation money!";
+		$msg="failed insertion!";
 	}
 }
 

@@ -24,8 +24,7 @@
                         <th>id</th>
                         <th>first_name</th>
                         <th>last_name</th>
-                        <th>email_id</th>
-                        <th colspan="2">operation</th>
+                        <th style="text-align: center;">email_id</th>
                     </tr>
                 </thead>
 
@@ -48,8 +47,6 @@
                         <td><span class="firstName-style"><?php echo $res['first_name']?></span></td>
                         <td><?php echo $res['last_name']?></td>
                         <td><?php echo $res['email_id']?></td>
-                        <td><a href="updates.php?id=<?php echo $res['id']; ?>" data-toggle="tooltip" data-placement="bottom" title="UPDATE"> <i class="fa fa-edit" aria-hidden="true"></i></a></td>
-                        <td><a href="delete.php?idth=<?php echo $res['id']; ?>" data-toggle="tooltip" data-placement="bottom" title="DELETE"> <i class="fa fa-trash" aria-hidden="true"></i></a></td>
                         </tr>
 
                 <?php
