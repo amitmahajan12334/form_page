@@ -52,7 +52,11 @@
                 <?php
                     }
                 ?>
-                
+                        <tr>
+                            <td colspan="4">
+                            <a href="index.php" class="login100-form-btn" style="background-color:greenyellow; margin-left:40px; text-decoration:none; border-radius:4px; color:white;">Add users</a>
+                            </td>
+                        </tr>
 
                     
                 </tbody>

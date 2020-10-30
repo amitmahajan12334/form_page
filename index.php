@@ -52,19 +52,19 @@ a{
 				<form method="post" class="login100-form validate-form">
 					<div class="wrap-input100 validate-input m-b-26">
 						<span class="label-input100" style="font-family:unset;">First Name</span>
-						<input class="input100" type="text" name="firstName" placeholder="Enter First Name" >
+						<input class="input100" type="text" name="firstName" placeholder="Enter First Name" required>
 						<span class="focus-input100"></span>
 					</div>
 
 					<div class="wrap-input100 validate-input m-b-26">
 						<span class="label-input100" style="font-family:unset;">Last Name</span>
-						<input class="input100" type="text" name="lastName" placeholder="Enter Last Name" >
+						<input class="input100" type="text" name="lastName" placeholder="Enter Last Name" required>
 						<span class="focus-input100"></span>
 					</div>
 
 					<div class="wrap-input100 validate-input m-b-26">
 						<span class="label-input100" style="font-family:unset;">Email</span>
-						<input class="input100" type="email" name="email" placeholder="Enter Email address" >
+						<input class="input100" type="email" name="email" placeholder="Enter Email address" required>
 						<span class="focus-input100"></span>
 					</div>
 
